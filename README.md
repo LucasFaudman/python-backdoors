@@ -1,5 +1,5 @@
 # python-backdoors
-Python backdoors written by me for SANS courses and CTFs:
+Python backdoors written for SANS courses and CTFs: Automating Information Security with Python
 * [socket-backdoor.py](socket-backdoor.py) - A simple socket backdoor that can upload, download, and execute files.
 
 * [pyterperter-backdoor.py](pyterpreter-backdoor.py) - A backdoor allows the user to execute Python commands on the target machine throught the Python interpreter via `code.interact()` by redirecting stdin, stdout, and stderr to a socketIO instance which has the file object methods needed to read and write from the underlying socket.
